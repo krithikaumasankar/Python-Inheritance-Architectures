@@ -7,7 +7,7 @@ class Vehicle:
 
     def display_info(self):
         print("\n----- VEHICLE DETAILS -----")
-        print("Make   :", self.make)
+        print("\nMake   :", self.make)
         print("Year   :", self.year)
         print("Colour :", self.colour)
 
@@ -64,8 +64,8 @@ while True:
         b1.Display_bike()
 
     elif ch == 3:
-        print("Thank You...")
+        print("\nThank You...")
         break
 
     else:
-        print("Invalid Choice")
+        print("\nInvalid Choice")
